@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: "Inter";
+}
+.container{
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+ul{
+    margin-left: 496px;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+ul a{
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    text-align: left;
+    color: rgba(0, 41, 89, 1);
+    transition: all 0.5s ease-out;
+    list-style: none;
+    text-decoration: none;
+}
+ul a:hover{
+    color: rgba(236, 108, 33, 1);
+    transform: scale(110%);
+}
+.buying{
+    margin-left: 40px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+.buying:hover{
+    transform: scale(110%);
+}
+.login{
+    margin-left: 40px;
+    width: 133px;
+    height: 60px;
+    padding: 18px 30px;
+    gap: 10px;
+    background-color: rgba(236, 108, 33, 1);
+    border-radius: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    text-align: left;
+    color: white;
+    cursor: pointer;
+}
+main h2{
+    margin-top: 90px;
+    font-family: "Inter";
+    font-size: 61px;
+    font-weight: 600;
+    line-height: 70px;
+    text-align: center;
+    color: rgba(0, 41, 89, 1);
+}
+main p{
+    margin-top: 40px;
+    font-family: "Inter";
+    font-size: 19.3px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(0, 41, 89, 1);
+}
+main button{
+    cursor: pointer;
+    margin-top: 74px;
+    margin-left: 490px;
+    width: 266px;
+    height: 60px;
+    padding: 18px 30px;
+    display: flex;
+    border: none;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(236, 108, 33, 1);
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    text-align: left;
+    color: white;
+}
